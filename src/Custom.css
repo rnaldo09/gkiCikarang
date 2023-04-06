@@ -1,0 +1,68 @@
+.navBarCust{
+    background-color: #DC0000;
+}
+
+.navBarItem{
+    position: relative;
+    display: inline-flex;
+    justify-content: end;
+}
+
+/* .navBarCust .show{
+    justify-content: center;
+    text-align: center;
+} */
+
+.navBarItem a{
+    font-weight: 500;
+    color: rgb(255 255 255 / 90%);
+}
+
+.navBarItem .dropdown-menu{
+    background-color: #DC0000;
+}
+
+.nav-link:hover{
+    color: #850000;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .thumbs-wrapper{
+    display: none;
+}
+
+.footer{
+    background-color: #FFF6C3;
+}
+
+.footerCenter{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footerIcon{
+    color: black;
+}
+
+.rowPendeta{
+    margin-left: 1rem;
+}
+
+.listPdt{
+    display: inline-flex;
+}
+
+#footer li{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .navBarCust .show{
+        justify-content: center;
+        text-align: center;
+    }
+}
